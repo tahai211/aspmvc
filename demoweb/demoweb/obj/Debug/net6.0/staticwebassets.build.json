@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "Hash": "IotcrznAJC3Er+c+NumOdTLP1Upe6d8xgxBi9o7auLI=",
+  "Source": "demoweb",
+  "BasePath": "_content/demoweb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "/Users/tahai/Documents/APS/demoweb/demoweb/obj/Debug/net6.0/scopedcss/bundle/demoweb.styles.css",
+      "SourceId": "demoweb",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/tahai/Documents/APS/demoweb/demoweb/obj/Debug/net6.0/scopedcss/bundle/",
+      "BasePath": "_content/demoweb",
+      "RelativePath": "demoweb.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/tahai/Documents/APS/demoweb/demoweb/obj/Debug/net6.0/scopedcss/bundle/demoweb.styles.css"
+    },
+    {
+      "Identity": "/Users/tahai/Documents/APS/demoweb/demoweb/obj/Debug/net6.0/scopedcss/projectbundle/demoweb.bundle.scp.css",
+      "SourceId": "demoweb",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/tahai/Documents/APS/demoweb/demoweb/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "BasePath": "_content/demoweb",
+      "RelativePath": "demoweb.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/tahai/Documents/APS/demoweb/demoweb/obj/Debug/net6.0/scopedcss/projectbundle/demoweb.bundle.scp.css"
+    }
+  ]
+}

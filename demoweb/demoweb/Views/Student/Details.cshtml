@@ -1,0 +1,67 @@
+﻿@model demoweb.Models.Student
+@{
+    ViewBag.Title = "Details";<!--chuyen du lieu tam thoi k co modul tu controller sang view-->
+    Layout = null;// " ~/Views/Shared/_Layout.cshtml ";
+}
+<h2>Details</h2>
+
+<div>
+
+    <h4>Student</h4>
+
+    <hr/>
+
+    <dl class="dl-horizontal">
+        <dt>
+
+            @Html.DisplayNameFor(model => model.MaSV)
+
+        </dt>
+        <dd>
+
+            @Html.DisplayFor(model => model.MaSV)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sex)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sex)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.brith)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.brith)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Addrest)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Addrest)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.lop)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lop)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sửa", "Edit", new { MaSV = Model.MaSV}) |
+    @Html.ActionLink("Quay trở lại danh sách", "DanhsachSV")
+</p>

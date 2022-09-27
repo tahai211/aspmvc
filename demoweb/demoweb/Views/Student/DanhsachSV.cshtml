@@ -1,0 +1,65 @@
+﻿
+@model IEnumerable<demoweb.Models.Student>
+@{
+    ViewBag.Title = "DanhsachSV";<!--chuyen du lieu tam thoi k co modul tu controller sang view-->
+    Layout =  "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Danh Sach Sinh Vien</h2>
+<p>
+    <!--nut them moi 1 sinh vien khi bams vao nut se gui yeu cau den controller va hien thi len view insert-->
+    @Html.ActionLink("Create New", "InsertStudent")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MaSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sex)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.brith)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Addrest)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lop)
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaSV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sex)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.brith)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Addrest)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lop)
+            </td>
+            
+            <td>
+                <!--nut sua xoa 1 sinh vien khi bam vao nut se gui yeu cau den controller va hien thi view sua va xoa-->
+                @Html.ActionLink("Edit", "Edit", new { MaSV = item.MaSV }) |
+                @Html.ActionLink("Details", "Details", new { MaSV = item.MaSV }) |
+                @Html.ActionLink("Delete", "Delete", new { MaSV = item.MaSV })
+            </td>
+        </tr>
+    }
+</table>

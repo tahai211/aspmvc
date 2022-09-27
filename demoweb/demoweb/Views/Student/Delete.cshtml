@@ -1,0 +1,74 @@
+﻿@model demoweb.Models.Student
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = null;// "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h3>Bạn có muốn xóa sinh vien này?</h3>
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MaSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaSV)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sex)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sex)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.brith)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.brith)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Addrest)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Addrest)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.lop)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lop)
+        </dd>
+
+
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Quay về danh sách", "DanhsachSV")
+        </div>
+    }
+</div>

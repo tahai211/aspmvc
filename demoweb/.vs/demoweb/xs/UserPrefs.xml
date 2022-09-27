@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{2CB26373-EB62-4310-B45A-E6499BB2F12F}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="demoweb/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="demoweb/Controllers/HomeController.cs" Line="20" Column="6" />
+      <File FileName="demoweb/Views/Home/Index.cshtml" Line="7" Column="1" />
+      <File FileName="demoweb/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="demoweb/appsettings.json" Line="16" Column="1" />
+      <File FileName="demoweb/Program.cs" Line="27" Column="1" />
+      <File FileName="demoweb/Views/_ViewStart.cshtml" Line="2" Column="22" />
+      <File FileName="demoweb/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="demoweb/Views/Shared/_Layout.cshtml" Line="53" Column="30" />
+      <File FileName="demoweb/Views/Home/Privacy.cshtml" Line="12" Column="27" />
+      <File FileName="demoweb/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="demoweb/Views/Shared/_Layout.cshtml.css" Line="1" Column="1" />
+      <File FileName="demoweb/Controllers/StudentController.cs" Line="24" Column="30" />
+      <File FileName="demoweb/Models/Student.cs" Line="58" Column="1" />
+      <File FileName="demoweb/Models/DBConnection.cs" Line="43" Column="35" />
+      <File FileName="demoweb/Views/Student/InsertStudent.cshtml" Line="5" Column="2" />
+      <File FileName="demoweb/Views/Student/Edit.cshtml" Line="68" Column="7" />
+      <File FileName="demoweb/Views/Student/Details.cshtml" Line="56" Column="10" />
+      <File FileName="demoweb/Views/Student/Delete.cshtml" Line="53" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="demoweb" expanded="True">
+            <Node name="demoweb" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="Student" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.demoweb PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
